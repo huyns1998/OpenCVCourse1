@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Quang\.nuget\packages\opencvsharp3-anycpu\4.0.0.20181129\build\..\runtimes\win10-x64\native\OpenCvSharpExtern.dll" />
+    <None Remove="C:\Users\Quang\.nuget\packages\opencvsharp3-anycpu\4.0.0.20181129\build\..\runtimes\win10-x64\native\opencv_ffmpeg400_64.dll" />
+    <None Remove="C:\Users\Quang\.nuget\packages\opencvsharp3-anycpu\4.0.0.20181129\build\..\runtimes\win10-x86\native\OpenCvSharpExtern.dll" />
+    <None Remove="C:\Users\Quang\.nuget\packages\opencvsharp3-anycpu\4.0.0.20181129\build\..\runtimes\win10-x86\native\opencv_ffmpeg400.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenCvSharp3-AnyCPU" Version="3.4.1.20180830" />
+  </ItemGroup>
+
+</Project>
